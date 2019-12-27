@@ -185,7 +185,7 @@ public class UVCCameraActivity extends UnityPlayerActivity
 
                         byte[] bytes=mdecodeValue(frame);
                         ProcessBuffer(bytes,bytes.length);
-                        UnityPlayer.UnitySendMessage(objectName, methodName, message);
+                        //UnityPlayer.UnitySendMessage(objectName, methodName, message);
 
                     }
                 }, mPreviewPixelFormat);
